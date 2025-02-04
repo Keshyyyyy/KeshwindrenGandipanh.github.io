@@ -154,6 +154,37 @@ input, select, textarea {
 		line-height: 2.375;
 	}
 
+	.skills-container {
+		display: flex; /* Establishes a flex container */
+		justify-content: center; /* Spaces out the child elements evenly */
+		align-items: flex-start; /* Aligns items at the start of the container */
+		margin-top: 20px; /* Optional: Adds some space above the skills container */
+		max-width: 100%; /* Sets a max-width for the container */
+		margin-left: auto; /* Auto margin for center alignment */
+		margin-right: auto; /* Auto margin for center alignment */
+	
+	}
+	
+	.skills-section {
+		width:50%;
+		padding: 0 20px; /* Adds padding inside each section */
+		box-sizing: border-box;
+	}
+	
+	.skills-section ul {
+		list-style: none; /* Removes bullet points from the list */
+		padding: 0; /* Removes padding */
+		margin: 0;
+		text-align: center;
+	}
+	
+	.skills-section h3 {
+		margin-top: 0; /* Removes top margin from headings */
+		margin-bottom: 10px; /* Adds a little space below the headings */
+		text-align: center;
+	}
+	
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
